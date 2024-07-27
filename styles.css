@@ -51,6 +51,7 @@ button:hover {
 /* Mobile Styles */
 @media (max-width: 600px) {
     .container {
+        heigth: 80%;
         width: 80%;
         padding: 10px;
     }
