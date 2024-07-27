@@ -62,7 +62,7 @@ button:hover {
     input[type="number"] {
         padding: 8px;
         font-size: 16px;
-        width: 100%; /* Make input fields full-width */
+        width: 80px; /* Narrower width for input fields on mobile */
         box-sizing: border-box; /* Include padding and border in the element's total width */
     }
 
