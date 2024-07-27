@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yen Calculator - Demonfall Trinkets</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Demonfall Yen Calculator</h1>
+        <form>
+            <h2>Goblets</h2>
+            Rust: <input type="number" id="rustGoblets" min="0" step="1"><br>
+            Bronze: <input type="number" id="bronzeGoblets" min="0" step="1"><br>
+            Silver: <input type="number" id="silverGoblets" min="0" step="1"><br>
+            Gold: <input type="number" id="goldGoblets" min="0" step="1"><br>
+
+            <h2>Jars</h2>
+            Bronze: <input type="number" id="bronzeJars" min="0" step="1"><br>
+            Silver: <input type="number" id="silverJars" min="0" step="1"><br>
+            Gold: <input type="number" id="goldJars" min="0" step="1"><br>
+
+            <h2>Rings</h2>
+            Silver: <input type="number" id="silverRings" min="0" step="1"><br>
+            Gold: <input type="number" id="goldRings" min="0" step="1"><br>
+
+            <h2>Trinkets</h2>
+            Ancient Coin: <input type="number" id="ancientCoin" min="0" step="1"><br>
+            Gold Crown: <input type="number" id="goldCrown" min="0" step="1"><br>
+            Red Jewel: <input type="number" id="redJewel" min="0" step="1"><br>
+            Green Jewel: <input type="number" id="greenJewel" min="0" step="1"><br>
+            Perfect Crystal: <input type="number" id="perfectCrystal" min="0" step="1"><br>
+
+            <button type="button" onclick="calculateTotal()">Calculate Total Yen</button>
+        </form>
+        <h2 id="totalYen">Total Yen: 0</h2>
+    </div>
+</body>
+</html>
