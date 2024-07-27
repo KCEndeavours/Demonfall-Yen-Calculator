@@ -52,13 +52,16 @@ button:hover {
 /* Mobile Styles */
 @media (max-width: 600px) {
     body {
+        display: flex; /* Ensure Flexbox is used for centering */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
         background-attachment: fixed; /* Keep the background static on mobile */
     }
     
     .container {
         width: 90%;
-        padding: 15px;
-        margin: 10px auto; /* Margin for spacing */
         max-height: calc(100vh - 40px); /* Ensure container fits within viewport */
         overflow: auto; /* Handle content clipping */
         box-sizing: border-box; /* Include padding and border in the element's total width */
@@ -78,7 +81,7 @@ button:hover {
     button {
         padding: 12px 20px;
         font-size: 16px;
-        width: 100%; /* Make button full-width */
+        width: 240px /* Make button 240px */
         box-sizing: border-box; /* Include padding and border in the element's total width */
     }
 }
