@@ -1,7 +1,7 @@
 function calculateTotal() {
     // Get input values for goblets
     let rustGoblets = document.getElementById('rustGoblets').value || 0;
-    let bronzeGoblets = document.getElementById('bronzeGoblets').value || 0;
+    let copperGoblets = document.getElementById('copperGoblets').value || 0;
     let silverGoblets = document.getElementById('silverGoblets').value || 0;
     let goldGoblets = document.getElementById('goldGoblets').value || 0;
 
@@ -22,7 +22,7 @@ function calculateTotal() {
     let perfectCrystal = document.getElementById('perfectCrystal').value || 0;
 
     // Calculate total Yen
-    let totalYen = (rustGoblets * 12) + (bronzeGoblets * 16) + (silverGoblets * 32) + (goldGoblets * 48) +
+    let totalYen = (rustGoblets * 12) + (copperGoblets * 16) + (silverGoblets * 32) + (goldGoblets * 48) +
         (bronzeJars * 20) + (silverJars * 42) + (goldJars * 90) +
         (silverRings * 32) + (goldRings * 54) +
         (ancientCoin * 120) + (goldCrown * 200) + (redJewel * 400) + (greenJewel * 3100) + (perfectCrystal * 6000);
