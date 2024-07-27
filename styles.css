@@ -67,7 +67,11 @@ button:hover {
         box-sizing: border-box; /* Include padding and border in the element's total width */
     }
 
-    h1, h2 {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
         font-size: 20px;
     }
 
